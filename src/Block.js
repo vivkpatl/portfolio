@@ -4,7 +4,7 @@ class Block extends Component {
   
   render() {
     return(
-      <div className="Block">
+      <div className={ (this.props.header) ? "Block-Header" : "Block-Content" }>
         <div>
           <h1>
             {this.props.title}
