@@ -1,0 +1,75 @@
+$blue: #61dafb;
+
+
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.Top {
+  height: 100vh;
+  position: relative;
+
+  h1 {
+    font-size: 1em;
+    color: $blue;
+  }
+
+  h2 {
+    color: white;
+  }
+}
+
+.Info {
+  position: relative;
+  top: 75%;
+  transform: translateY(-75%);
+  align-content: center;
+
+
+  color: $blue;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    li {
+      padding: 0 0.5em 0 0.5em;
+      display: inline-block;
+    }
+
+    a {
+      color: $blue;
+    }
+  }
+}
+
+.Block-Content {
+  
+}
+
+.Block {
+  position: relative;
+  transform: translateY(-50%); 
+  top: 50%;
+  font-size: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #61dafb
+}
+
+.Card {
+
+}
+
+.Name-animation {
+  animation: test infinite 3s ease-in-out;
+  height: 10vmin;
+  pointer-events: none;
+}
