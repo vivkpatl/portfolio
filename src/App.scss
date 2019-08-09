@@ -27,7 +27,7 @@ h2, h4 {
 
 .Info {
   position: absolute;
-  bottom: 0;
+  bottom: 2.5%;
   width: 100%;
   margin-bottom: 3em;
   color: $blue;
@@ -39,6 +39,8 @@ h2, h4 {
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
+    padding-left: 0;
 
     li {
       padding: 0 0.5em 0 0.5em;
