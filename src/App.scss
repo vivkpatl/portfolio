@@ -77,10 +77,17 @@ h2, h4 {
 .Card {
   border-radius: .25em;
   padding: .25em;
+  margin: .125em;
   cursor: pointer;
   border: none;
   background: $gray;
   box-shadow: $shadow;
+
+  a {
+    color: white;
+    font-weight: bold;
+  }
+
 }
 
 .Name-animation {
