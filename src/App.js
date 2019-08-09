@@ -128,8 +128,8 @@ class App extends React.Component {
 
               <div className="col-sm mb-3">
                 
-                <Card title="Node.js">
-                  Used to build <a href="#projects">Clippr</a> and <a href="#projects">SoleScrape</a>. Fun stuff!
+                <Card title="Android">
+                  Check out <a href="#projects">PaperShares</a> above. It's for Android!
                 </Card>
 
               </div>
@@ -148,6 +148,14 @@ class App extends React.Component {
 
               <div className="col-sm mb-3">
                 
+                <Card title="Express.js">
+                  Writing RESTful APIs! Serves as the backbone of <a href="#projects">SoleScrape</a>.
+                </Card>
+
+              </div>
+
+              <div className="col-sm mb-3">
+                
                 <Card title="React.js">
                   The proof? You're looking at it. Passing props, writing JSX, the whole shebang.
                 </Card>
@@ -156,8 +164,8 @@ class App extends React.Component {
 
               <div className="col-sm mb-3">
                 
-                <Card title="Android">
-                  Check out <a href="#projects">PaperShares</a> above. It's for Android!
+                <Card title="Node.js">
+                  Used to build <a href="#projects">Clippr</a> and <a href="#projects">SoleScrape</a>. Fun stuff!
                 </Card>
 
               </div>
