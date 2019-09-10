@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="Top">
-          <Block title="Vivek P. Patel" description="Developer - Student - Point Guard" header={true} />
+          <Block title="Vivek P. Patel" description="Developer - Student" header={true} />
 
           
           <Info />
@@ -174,6 +174,18 @@ class App extends React.Component {
 
               </div>
 
+              <div className="w-100">
+                
+              </div>
+
+              <div className="col-sm mb-3">
+                
+                <Card title="Electron.js">
+                  Basic knowledge of building desktop applications using a typical web stack. Check out <a href="#projects">Clippr</a>'s source code!
+                </Card>
+
+              </div>
+
               <div className="col-sm mb-3">
                 
                 <Card title="C++/C#">
@@ -197,7 +209,7 @@ class App extends React.Component {
               <div className="col mb-3">
                 
                 <Card title="University of Washington" link="https://cs.washington.edu/">
-                  Working towards a <strong>B.S. in Computer Science</strong>. Projected graduation in June 2023.
+                  Working towards a <strong>B.S. in Computer Science</strong> with a focus in Data Science at the <strong>Paul G. Allen School of Computer Science & Engineering</strong>. Projected graduation in June 2023.
                 </Card>
 
               </div>

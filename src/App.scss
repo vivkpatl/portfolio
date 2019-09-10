@@ -1,6 +1,7 @@
 $blue: #61dafb;
 $gray: #282c34;
-$shadow: 0 2px 10px 0 $blue, 0 4px 8px 0 $blue;
+$shadow: 0 2px 6px 0 $blue, 0 4px 8px 0 $blue;
+$hover-shadow: 0 3px 15px 0 $blue, 0 6px 12px 0 $blue;
 
 .App {
   text-align: center;
@@ -85,9 +86,9 @@ h2, h4 {
   background: $gray;
   box-shadow: $shadow;
 
-  -webkit-transition: border-radius 0.25s ease;
-  -moz-transition: border-radius 0.25s ease;
-  -o-transition: border-radius 0.25s ease;
+  -webkit-transition: box-shadow 0.25s ease;
+  -moz-transition: box-shadow 0.25s ease;
+  -o-transition: box-shadow 0.25s ease;
 
   a {
     color: white;
@@ -97,7 +98,7 @@ h2, h4 {
 
 
   &:hover {
-    border-radius: 0.5em;
+    box-shadow: $hover-shadow;
   }
 }
 
