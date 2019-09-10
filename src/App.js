@@ -61,7 +61,7 @@ class App extends React.Component {
               <div className="col-sm mb-3">
 
                 <Card title="SoleScrape" link="https://github.com/vivkpatl/nodejs-scraping">
-                  I worked on the design of gameplay elements such as simple AI, and a wide array of control schemes. The game earned 1st place at the state level and 3rd place at the national level in TSA's Video Game Design event.
+                  An application that scrapes prices of hyped-up sneakers from a friendly neighborhood apparel site. Build using an Express.js server, Puppeteer.js to capture JavaScript-rendered markup, and Cheerio.js to traverse said markup jQuery-style.
                 </Card>
 
               </div>
