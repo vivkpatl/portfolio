@@ -1,4 +1,6 @@
 import React from 'react';
+
+//Compiles the Sass CSS with the node-sass package 
 import './App.scss';
 
 
@@ -15,7 +17,9 @@ class App extends React.Component {
         <div className="Top">
           <Block title="Vivek P. Patel" description="Developer - Student - Point Guard" header={true} />
 
+          
           <Info />
+
         </div>
 
         <div className="container">

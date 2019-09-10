@@ -2,6 +2,21 @@ import React from 'react';
 
 class Card extends React.Component {
 
+    state = {
+        cursor: 'pointer'
+    };
+
+    constructor(props) {
+
+        super(props);
+
+        if (!props.link) {
+            this.state = {
+                cursor: 'default'
+            }
+        }
+    }
+
 
     handleClick = () => {
       if (this.props.link) {
@@ -12,7 +27,7 @@ class Card extends React.Component {
 
     render() {
         return(
-            <div className="Card" onClick={this.handleClick}>
+            <div style={this.state} className="Card" onClick={this.handleClick}>
                 <h3>
                     {this.props.title}
                 </h3>

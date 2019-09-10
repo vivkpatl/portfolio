@@ -1,6 +1,6 @@
 $blue: #61dafb;
 $gray: #282c34;
-$shadow: 0 2px 2px 0 $blue, 0 4px 8px 0 $blue;
+$shadow: 0 2px 10px 0 $blue, 0 4px 8px 0 $blue;
 
 .App {
   text-align: center;
@@ -77,7 +77,7 @@ h2, h4 {
 }
 
 .Card {
-  border-radius: .25em;
+  border-radius: .125em;
   padding: .25em;
   margin: .125em;
   cursor: pointer;
@@ -85,11 +85,20 @@ h2, h4 {
   background: $gray;
   box-shadow: $shadow;
 
+  -webkit-transition: border-radius 0.25s ease;
+  -moz-transition: border-radius 0.25s ease;
+  -o-transition: border-radius 0.25s ease;
+
   a {
     color: white;
     font-weight: bold;
   }
 
+
+
+  &:hover {
+    border-radius: 0.5em;
+  }
 }
 
 .Name-animation {
