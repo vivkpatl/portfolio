@@ -31,7 +31,9 @@ class App extends React.Component {
               <div className="col-sm mb-3">
           
                 <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems, Inc.</strong>, I gained experience using WebRTC through RESTful APIs, implemented contextual text-to-speech according to accessibility specifications, and used Butterknife to bind views in an Android application.
+                  At <strong>Mavenir Systems, Inc.</strong>, I used Google’s accessibility checker to adjust contrast ratios for UI elements 
+                  in an Android application, debugged an Android application’s call state for issues in media volume adjustment, and learned about the 
+                  VIPER application architecture and accompanying practices.
                 </Card>
           
               </div>
@@ -39,9 +41,9 @@ class App extends React.Component {
               <div className="col-sm mb-3">
           
                 <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems, Inc.</strong>, I developed a means to aggregate T-Mobile customer
-                  phone lines under one email address using Firebase federated authentication, isolated 3 manufacturer-specific issues which were then backlogged (saving my team around 20 hours),
-                  developed 10 Android application screens using UI specifications, used JIRA to track issues and Bitbucket/Sourcetree for version control.
+                  At <strong>Mavenir Systems, Inc.</strong>, I implemented a dark UI theme across multiple views in an Android application 
+                  according to material design specifications, participated in daily standups with senior engineers and coordinated with a client QA team, 
+                  and used JIRA to track issues and Bitbucket/Sourcetree for version control.
                 </Card>
           
               </div>
