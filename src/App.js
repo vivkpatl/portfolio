@@ -1,6 +1,6 @@
 import React from 'react';
 
-//Compiles the Sass CSS with the node-sass package 
+//Compiles the Sass CSS with node-sass
 import './App.scss';
 
 
@@ -27,11 +27,19 @@ class App extends React.Component {
           <Block title="Experience" description="I have, in fact, held employment.">
           
             <div className="row">
+
+            <div className="col-sm mb-3">
+          
+                <Card title="Software Engineer Intern">
+                  I'll be interning at <strong>Finagraph</strong> during the Summer of 2020.
+                </Card>
+    
+            </div>
           
               <div className="col-sm mb-3">
           
                 <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems, Inc.</strong>, I used Google’s accessibility checker to adjust contrast ratios for UI elements 
+                  At <strong>Mavenir Systems</strong>, I used Google’s accessibility checker to adjust contrast ratios for UI elements 
                   in an Android application, debugged an Android application’s call state for issues in media volume adjustment, and learned about the 
                   VIPER application architecture and accompanying practices.
                 </Card>
@@ -41,7 +49,7 @@ class App extends React.Component {
               <div className="col-sm mb-3">
           
                 <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems, Inc.</strong>, I implemented a dark UI theme across multiple views in an Android application 
+                  At <strong>Mavenir Systems</strong>, I implemented a dark UI theme across multiple views in an Android application 
                   according to material design specifications, participated in daily standups with senior engineers and coordinated with a client QA team, 
                   and used JIRA to track issues and Bitbucket/Sourcetree for version control.
                 </Card>
