@@ -30,26 +30,18 @@ class App extends React.Component {
 
             <div className="col-sm mb-3">
           
-                <Card title="Software Engineer Intern">
-                  I'll be interning at <strong>Finagraph</strong> during the Summer of 2020.
+                <Card title="Finagraph">
+                  I'll be interning at <strong>Finagraph</strong> as a <strong>Software Engineering Intern</strong> during the Summer of 2020.
                 </Card>
     
             </div>
           
               <div className="col-sm mb-3">
           
-                <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems</strong>, I used Google’s accessibility checker to adjust contrast ratios for UI elements 
-                  in an Android application, debugged an Android application’s call state for issues in media volume adjustment, and learned about the 
-                  VIPER application architecture and accompanying practices.
-                </Card>
-          
-              </div>
-              
-              <div className="col-sm mb-3">
-          
-                <Card title="Software Engineer Intern">
-                  At <strong>Mavenir Systems</strong>, I implemented a dark UI theme across multiple views in an Android application 
+                <Card title="Mavenir Systems">
+                  Over the course of two internships, I used Google’s accessibility checker to adjust contrast ratios for UI elements 
+                  in an Android application, debugged an Android application’s call state for issues in media volume adjustmentvia WebRTC, and learned about the 
+                  VIPER application architecture and accompanying practices. I also implemented a dark UI theme across multiple views in an Android application 
                   according to material design specifications, participated in daily standups with senior engineers and coordinated with a client QA team, 
                   and used JIRA to track issues and Bitbucket/Sourcetree for version control.
                 </Card>
