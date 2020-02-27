@@ -15,23 +15,23 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="Top">
-          <Block title="Vivek P. Patel" description="Developer - Student" header={true} />
+          <Block title="Vivek P. Patel" description="CS Student - Full Stack Engineer" header={true} />
 
-          
+           
           <Info />
 
         </div>
 
         <div className="container">
           
-          <Block title="Experience" description="I have, in fact, held employment.">
+          <Block title="Experience" description="Always a nice thing to have.">
           
             <div className="row">
 
             <div className="col-sm mb-3">
           
                 <Card title="Finagraph">
-                  I'll be interning at <strong>Finagraph</strong> as a <strong>Software Engineering Intern</strong> during the Summer of 2020.
+                  I'll be working at <strong>Finagraph</strong> as a <strong>Software Engineering Intern</strong> during the Summer of 2020.
                 </Card>
     
             </div>
@@ -204,14 +204,14 @@ class App extends React.Component {
 
         <div className="container">
           
-          <Block title="Education" description="Pieces of paper. Some are in progress.">
+          <Block title="Education" description="A solid investment.">
             
             <div className="row">
 
               <div className="col mb-3">
                 
-                <Card title="University of Washington" link="https://cs.washington.edu/">
-                  Working towards a <strong>B.S. in Computer Science</strong> with a focus in Data Science at the <strong>Paul G. Allen School of Computer Science & Engineering</strong>. Projected graduation in June 2023.
+                <Card title="University of Washington">
+                  Working towards a <strong>B.S. in Computer Science</strong> with a minor in <a href="https://depts.washington.edu/compfin/">Computational Finance and Risk Management</a> at the <a href="https://cs.uw.edu">Paul G. Allen School of Computer Science & Engineering</a>. Projected graduation in June 2022.
                 </Card>
 
               </div>
