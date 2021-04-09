@@ -16,7 +16,7 @@ class Info extends Component {
             <a href="https://github.com/vivkpatl" target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1tI2evOsAA0bQUs6BwBD5BZjw42nt6QbZ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="https://drive.google.com/file/d/1DBA1sR4d6vHi9i-ydGqEUwZ8ZTnxr5_M/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume</a>
           </li>
         </ul>
       </div>

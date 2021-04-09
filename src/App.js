@@ -15,7 +15,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="Top">
-          <Block title="Vivek P. Patel" description="CS Student - Full Stack Engineer" header={true} />
+          <Block title="Vivek Patel" description="CS Student - Full Stack Engineer" header={true} />
 
            
           <Info />
@@ -30,8 +30,8 @@ class App extends React.Component {
 
             <div className="col-sm mb-3">
           
-                <Card title="Finagraph">
-                  I'll be working at <strong>Finagraph</strong> as a <strong>Software Engineering Intern</strong> during the Summer of 2020.
+                <Card title="Kalshi">
+                  A novel futures trading platform for everyday events. I spent the summer building features for Kalshi's binary options exchange and spearheaded efforts for Kalshi's proprietary market surveillance systems.
                 </Card>
     
             </div>
@@ -154,6 +154,22 @@ class App extends React.Component {
 
               <div className="col-sm mb-3">
                 
+                <Card title="PostgreSQL">
+                  A relational database. Bread and butter.
+                </Card>
+
+              </div>
+
+              <div className="col-sm mb-3">
+                
+                <Card title="Go">
+                  A language for the future. And one that I love writing!
+                </Card>
+
+              </div>
+
+              <div className="col-sm mb-3">
+                
                 <Card title="Express.js">
                   Writing RESTful APIs! Serves as the backbone of <a href="#projects">SoleScrape</a>.
                 </Card>
@@ -190,8 +206,8 @@ class App extends React.Component {
 
               <div className="col-sm mb-3">
                 
-                <Card title="C++/C#">
-                  Built some games using SFML in C++, and prototyped mathematical pipelines in C# on Windows.
+                <Card title="C++">
+                  Built some games using SFML in C++! Reach out if you'd like to learn more.
                 </Card>
 
               </div>
@@ -211,7 +227,7 @@ class App extends React.Component {
               <div className="col mb-3">
                 
                 <Card title="University of Washington">
-                  Working towards a <strong>B.S. in Computer Science</strong> with a minor in <a href="https://depts.washington.edu/compfin/">Computational Finance and Risk Management</a> at the <a href="https://cs.uw.edu">Paul G. Allen School of Computer Science & Engineering</a>. Projected graduation in June 2022.
+                  Working towards a <strong>B.S. in Computer Science</strong> at the <a href="https://cs.uw.edu">Paul G. Allen School of Computer Science & Engineering</a>. Projected graduation in December 2022.
                 </Card>
 
               </div>
